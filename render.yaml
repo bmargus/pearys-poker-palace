@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pearys-poker-palace
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
